@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EBBDD152718F55100A79CF1 /* scouting1072-recharge-ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "scouting1072-recharge-ios.entitlements"; sourceTree = "<group>"; };
 		6C858CAA2418A9880087A223 /* r2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = r2.mp3; sourceTree = "<group>"; };
 		6C858CAC2418AA2E0087A223 /* yoda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yoda.mp3; sourceTree = "<group>"; };
 		6CC8CFC12414AD6200705CAE /* scouting1072-recharge-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scouting1072-recharge-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +59,7 @@
 		6CC8CFC32414AD6200705CAE /* scouting1072-recharge-ios */ = {
 			isa = PBXGroup;
 			children = (
+				1EBBDD152718F55100A79CF1 /* scouting1072-recharge-ios.entitlements */,
 				6CC8CFC42414AD6200705CAE /* AppDelegate.swift */,
 				6CC8CFC82414AD6200705CAE /* ViewController.swift */,
 				6C858CAA2418A9880087A223 /* r2.mp3 */,
@@ -97,7 +99,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "Aydin Tiritoglu";
 				TargetAttributes = {
 					6CC8CFC02414AD6200705CAE = {
@@ -196,6 +198,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -256,6 +259,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -288,15 +292,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "scouting1072-recharge-ios/scouting1072-recharge-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7AB3D4ZA93;
+				DEVELOPMENT_TEAM = 6LV5R89SNZ;
 				INFOPLIST_FILE = "scouting1072-recharge-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aydintiritoglu.scouting1072-recharge-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabirramzan.scouting1072-recharge-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,15 +312,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "scouting1072-recharge-ios/scouting1072-recharge-ios.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7AB3D4ZA93;
+				DEVELOPMENT_TEAM = 6LV5R89SNZ;
 				INFOPLIST_FILE = "scouting1072-recharge-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aydintiritoglu.scouting1072-recharge-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabirramzan.scouting1072-recharge-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
